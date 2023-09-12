@@ -1,0 +1,48 @@
+/* style sheet for assignment 3 */
+
+.specialp {
+    color: rgb(0, 255, 51);
+    background-color: plum;
+  }
+.header2 {
+    color: burlywood;
+    background-color: darkgreen;
+}
+.header3 {
+    color: darkcyan;
+    background-color: aliceblue;
+}
+  #specialid {
+    color: rgb(255, 0, 115);
+    background-color: black;
+  }
+
+  #divmain {
+    background-color: darkorchid;
+  }
+
+  .spanstyle {
+    color: rgb(89, 203, 44);
+  }
+
+  a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }
