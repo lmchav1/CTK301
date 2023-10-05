@@ -1,0 +1,69 @@
+/* style sheet for assignment 4 */
+
+.specialp {
+    color: rgb(0, 255, 51);
+    background-color: plum;
+    text-align: center;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(pattern.jpeg);
+  background-repeat: repeat;
+  background-position: top left;
+}
+.imgbox {
+  border: 9px solid black;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: yellow;
+}
+.header2 {
+    color: rgb(255, 165, 0);
+    font-style: italic;
+    font-weight: normal;
+    background-color: darkgreen;
+}
+.header3 {
+    color: rgb(255, 165, 0);
+    font-style: italic;
+    font-weight: normal;
+    background-color: aliceblue;
+}
+  #specialid {
+    color: rgb(255, 165, 0);
+    font-style: italic;
+    font-weight: normal;
+    background-color: black;
+  }
+
+  #divmain {
+    background-color: darkorchid;
+    text-align: justify;
+  }
+
+  .spanstyle {
+    color: rgb(89, 203, 44);
+  }
+
+  a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }
