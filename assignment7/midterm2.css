@@ -1,0 +1,145 @@
+/* midterm 2 CSS */
+
+#wrapper {
+    margin: 1em auto;
+    padding-right: 0px;
+    width: 800px;
+    border: 3px solid #101ee8;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .text{
+    color:red;
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  header {
+    background-image: linear-gradient(darkblue,blue);
+    grid-column: span 6;
+  }
+  
+  h1{
+    padding-left: 15px;
+  }
+  
+  h1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1 a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(208, 97, 255);
+    text-decoration: none;
+  }
+  
+  nav ul{
+    list-style-type: none;
+  }
+  
+  nav li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  nav li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: none;
+    padding: 10px;
+    background-image: linear-gradient(darkblue,blue);
+  }
+  
+  nav li a:hover{
+    text-decoration: none;
+    color: rgb(226, 119, 247);
+    background-image: linear-gradient(purple,pink);
+
+  }
+  
+  main a {
+    color: blue;
+    font-style: bold;    
+    text-decoration: none;
+  }
+    
+  main a:link {
+    color: blue;
+  }
+    
+  main a:visited {
+    color: #0000ff;
+  }
+    
+  main a:active {
+    color: blue;
+  }
+    
+  main a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  
+  .aside {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    grid-column: span 2;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+  
+  h2 {
+    border-bottom: 3px solid blue;
+  }
+  
+  .welp{
+    text-align: justify;
+  }
+  
+  main {
+    grid-column: span 4;
+    padding: 10px;
+  }
+  
+  main img {
+    border: 3px solid blue;
+    float: left;
+    margin: 10px;
+  }
+  
+footer {
+  grid-column: span 6;
+  background-color: red;
+  border-top: 3px solid #0000ff;
+  padding: 5px;
+}
+
+p a:link{
+  color: red;
+  text-decoration: none;
+}
+
+p a:visited{
+  color: red;
+}
+
+p a:hover{
+  color:black;
+  text-decoration: none;
+}
