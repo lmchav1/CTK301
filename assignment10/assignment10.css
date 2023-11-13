@@ -1,0 +1,54 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.header {
+  grid-column: span 12;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  border-left: black 3px dotted;
+  border-right: black 3px dotted;
+}
+
+.nav {
+  grid-column: span 12;
+}
+
+.nav nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav nav li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: none;
+  font-style: italic;
+  list-style-type: none;
+  display: inline-block;
+  width: 200px;
+}
+
+.main main img{
+  width: 600px;
+}
+
+.main {
+  grid-column: span 12;
+  text-align: center;
+}
